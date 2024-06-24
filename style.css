@@ -211,9 +211,12 @@ img:hover{
     text-shadow: 2px 0px 0px black;
 }
 
+/* #name1{
+    text-shadow: 3px 3px 3px rgb(27, 67, 245);
+} */
 .p1{
-    color: rgb(98, 51, 99);
-    text-shadow: 2px 0px 0px blue;
+    color: rgb(253, 55, 6);
+    text-shadow: 2px 0px 0px rgb(225, 239, 17);
     
 }
 
