@@ -15,6 +15,10 @@
     --main-color:rgb(94, 224, 7);
 }
 
+#colos{
+    color: white;
+}
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -70,7 +74,8 @@ h1:hover{
 
 .navbar a{
     font-size: 1.7rem;
-    color: var(--text-color);
+    color: rgb(227, 222, 214);
+    /* color: var(--text-color); */
     margin-left: 4rem;
     transition: .3s;
 }
@@ -93,7 +98,8 @@ h1:hover{
     align-items: center;
 }
 .home-img img {
-    width: 35vw;
+    width: 30vw;
+    height: 70vh;
     animation: floatImage 4s ease-in-out infinite;
 }
 @keyframes floatImage{
@@ -137,8 +143,9 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 5px solid rgb(91, 42, 226);
-    box-shadow: 0 0 3rem black;
+    /* border: 5px solid rgb(91, 42, 226); */
+    /* box-shadow: 0 0 3rem black; */
+    box-shadow: 0px 0px 60px black;
     border-radius: 120px;
     transform: rotate(360deg,260deg) scaleY(45deg);
 }
@@ -176,10 +183,30 @@ img:hover{
     box-shadow: 2px 0px 0px rgb(146, 243, 151);
 }
 
+#redd{
+    color: greenyellow;
+}
+#reds{
+    color: aqua;
+
+}
+#redp{
+    color: deeppink;
+
+}
+#redk{
+    color: gold;
+
+}
+/* .social-media a{
+    color: green;
+
+} */
+
 .social-media a:hover{
-    background-color: aqua;
-    background:rgb(233, 4, 80);
-    color: var(--second-bg-color);
+    background-color: rgb(74, 241, 241);
+    background:rgb(237, 102, 147);
+    /* color: var(--second-bg-color); */
     box-shadow: 0 0 1rem var(--main-color);
 }
 
@@ -207,8 +234,9 @@ img:hover{
 
 } */
 .my{
-    color: rgb(85, 106, 160);
-    text-shadow: 2px 0px 0px black;
+    color: rgb(225, 230, 242);
+    text-align: initial;
+    text-shadow: 2px 2px 2px rgb(3, 3, 3);
 }
 
 /* #name1{
@@ -220,11 +248,13 @@ img:hover{
     
 }
 
+
+
 #id{
     color: yellow;
 }
 #type:hover{
-    color: rgb(233, 189, 17);
+    color: rgb(247, 247, 247);
 }
 
 #cv:hover{
@@ -251,6 +281,23 @@ img:hover{
     text-shadow:3px 3px 3px  #b70c42;
 }
 
+.heading1{
+    margin: 1rem;
+    text-align: center;
+    font-size: 4.5rem;
+    color: rgb(219, 167, 24);
+    text-shadow:3px 3px 3px  #d980e3;
+}
+#cols{
+    color: deeppink;
+}
+#type1{
+    color: rgb(243, 235, 239);
+}
+#type1:hover{
+    color: rgb(25, 29, 19);
+}
+
 .about-content h2{
     text-align: left;
     line-height: 1.2;
@@ -270,15 +317,21 @@ span{
 }
 
 #hok {
+    height: 60vh;
+    width: 30vw;
     border-radius: 200%;
-    border: 5px solid palevioletred;
-    box-shadow:0.20px 0.20px 20px 0px #0ef;
+    /* border: 5px solid palevioletred; */
+    /* box-shadow:0.20px 0.20px 20px 0px #0ef; */
+    box-shadow: 0px 0px 40px black;
     transform-box:0 100% 0 rgb(127, 198, 127);
+    /* transition: box-shadow 0.3s ease-in-out; */
+    
     
 }
 #hok:hover{
     transform: scale(1.10);
     scrollbar-color: #bec2c4 #ffffff00;
+    transition: transform 3.3s ease-in-out;
 }
 
 #id{
@@ -287,7 +340,7 @@ span{
     font-weight: 900;
 }
 #id:hover{
-    background-color:100% 0% 0% crimson;
+    background-color:100% 0% 0% rgb(185, 15, 49);
     color: cornflowerblue;
 
 }
@@ -311,6 +364,7 @@ span{
 }
 
 .services-container .services-box {
+    height: 60vh;
     flex: 1 1 30rem;
     background: var(--second-bg-color);
     padding: 3px 1px;
@@ -318,27 +372,31 @@ span{
     border-radius: 2rem;
     text-align: center;
     transition: .5s ease;
-    box-shadow: 5px 2px 6px 1px rgb(83, 236, 170);
+    color: rgb(22, 238, 22);
+    box-shadow: 5px 2px 6px 1px rgb(1, 2, 2);
     /* box-shadow: 5px 5px 5px solid rgb(151, 15, 15); */
 }
 .services-container .services-box:hover{
     border-color: var(--main-color);
     transform: scale(1.1);
-    border: 3px solid rgb(5, 29, 248);
+    border: 3px solid rgb(79, 248, 203);
     height: 350px;
-    width: 130px;
+    width: 120px;
+    gap: 20px;
     scroll-behavior: smooth;
+    color: rgb(232, 159, 245);
     
 
 }
 #our{
     color: rgb(230, 29, 133);
-    text-shadow: 2px 2px 2px  #0d2cf0;
+    text-shadow: 2px 2px 2px  #2e46e1;
 }
 
 .services-box i {
      font-size: 6rem;
      color: var(--main-color);
+     /* color: rgb(255, 24, 63); */
 }
 
 .services-box h3{
@@ -357,8 +415,9 @@ span{
 }
 
 #deg{
-    color: rgb(143, 5, 212);
-    text-shadow: 2px 2px 2px rgb(137, 48, 48);
+    /* height: 20vh; */
+    color: rgb(13, 204, 233);
+    text-shadow: 3px 4px 2px rgb(237, 85, 85);
 }
 
 .portfolio {
@@ -399,7 +458,7 @@ span{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0 , 0 , .1), var(--main-color));
+    background: linear-gradient(rgba(243, 145, 145, 0.1), var(--main-color));
     border-radius: 40%;
     height: 99%;
     border: 2px solid pink;
@@ -460,7 +519,7 @@ span{
 
 .contact form .input-box input,
 .contact form textarea {
-    width: 100%;
+    width: 120%;
     padding: 1.5rem;
     font-size: 1.6rem;
     color: aquamarine;
@@ -471,7 +530,8 @@ span{
 }
 
 .contact form .input-box input{
-    width: 49%;
+    /* width: 49%; */
+    width: 350%;
 }
 
 .contact form textarea{
